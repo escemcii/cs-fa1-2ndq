@@ -1,0 +1,157 @@
+
+
+/* General Layout */
+body {
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #0d0d0d; /* deep black background */
+  color: #1a1a1a;
+}
+
+/* Wrapper */
+#wrapper {
+  width: 85%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 2px solid #ff8700;
+  box-shadow: 0 0 15px rgba(255, 135, 0, 0.3);
+}
+
+/* Header */
+header {
+  background-color: #ff8700;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 5px solid #1a1a1a;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+header #tagline {
+  font-style: italic;
+  font-size: 1em;
+  color: #f0f0f0;
+}
+
+/* Navigation (sidebar) */
+nav {
+  width: 250px;
+  float: right;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 135, 0, 0.3);
+}
+
+nav p {
+  font-weight: bold;
+  color: #ff8700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 8px 0;
+}
+
+/* Navigation links */
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff8700;
+  padding: 8px 10px;
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ff9f33; /* brighter orange on hover */
+  color: #1a1a1a;
+}
+
+nav a:visited {
+  color: #ffe1c2;
+}
+
+/* Main content */
+main {
+  margin: 20px;
+  padding: 10px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+main h2 {
+  color: #ff8700;
+  border-bottom: 2px solid #ff8700;
+  padding-bottom: 5px;
+}
+
+/* Sections and articles */
+section, article {
+  margin-bottom: 30px;
+}
+
+/* Images and video styling */
+img, iframe {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Aside */
+aside {
+  clear: both;
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-top: 3px solid #ff8700;
+}
+
+aside p {
+  font-weight: bold;
+  color: #ff8700;
+}
+
+aside ul {
+  list-style-type: square;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.95em;
+  border-top: 5px solid #ff8700;
+  letter-spacing: 0.5px;
+}
+
+footer p {
+  margin: 0;
+  font-style: italic;
+}
+
+/* Links in text */
+a {
+  color: #ff8700;
+}
+a:hover {
+  color: #cc6d00;
+}
